@@ -1,6 +1,14 @@
-# Group Project
+# Group Project L4_5 Group 9 
 
-This is the repository for your group project, keep it neat and well organised with sensible folder structures.
+Group Leaders: 
+Ogheneochuko S D Ideh 
+Blake Hewitt 
+
+Group Members:
+Thomas Gibbs
+Bailey Keeble 
+
+This is the repository for our group project, please keep it neat and well organised with sensible folder structures.
 
 There is **no** need to create archived builds of your project or to keep any old files - everything is automatically archived for you.
 
