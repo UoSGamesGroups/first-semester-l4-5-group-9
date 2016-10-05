@@ -1,11 +1,11 @@
 # Group Project L4_5 Group 9 
 
 Group Leaders: 
-Ogheneochuko S D Ideh 
+Ogheneochuko S D Ideh, 
 Blake Hewitt 
 
 Group Members:
-Thomas Gibbs
+Thomas Gibbs,
 Bailey Keeble 
 
 This is the repository for our group project, please keep it neat and well organised with sensible folder structures.
