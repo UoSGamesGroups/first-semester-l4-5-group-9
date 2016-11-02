@@ -1,0 +1,6 @@
+Player Controller - Gives player movement, shoots direction of movement/last movement - 'win'/'game over' messages added on action end - 'score'/'collection' count persistent messages.
+Shoot Controller - Bullet Direction+Speed
+Health - Gives player 'lives', damage taken on enemy contact
+Zombie Controller - Gives 'zombie' enemy type movement, health
+Zombie Spawner - Gives a spawn point for zombies, editable spawn frequency, multiple can be added to scene
+Teleporter - Allows player sprite and camera to move from point A - B & B -A when contact made (code started to incorporate animation/screen fade on screen transition if desired).
