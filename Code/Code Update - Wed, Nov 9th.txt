@@ -1,0 +1,13 @@
+Bugs fixed:
+'Zombie' enemy type now interacts with player controlled projectiles while tracking the player.
+Teleporter 'sensitivity' increased slightly to lessen the need to repeatedly move across (Not perfect, though if increased too greatly an inescapable loop between teleporters is produced).
+
+Additions:
+Ability Pick ups added-
+Health Pack, raises player health pool by 1. (added a '+4' state to player health incase player already has full health on health pack pick up so the feature can be demonstrated)
+Speed Boost, temporarily doubles players move speed in all directions. Timer added to control duration. 
+Scatter Shot, temporarily allows player to shoot multiple projectiles. Each projectiles collider size also increased. Timer added to control duration.
+
+Issues Im already aware of and aim to fix during next sprint:
+Addition of shoot power up has interfered with existing code that provided directional control for projectiles.
+(will also review teleporter code if I find an appropriate way to improve it).

@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Teleporter : MonoBehaviour {
-    public Transform TeleportTarget;         // 
+    public Transform TeleportTarget;         
     private static bool CanTeleport;
 
     void Awake() {

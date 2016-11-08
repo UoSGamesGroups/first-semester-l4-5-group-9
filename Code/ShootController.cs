@@ -13,7 +13,7 @@ public class ShootController : MonoBehaviour {
 	
 	void Update () {
 
-        var moveBullet = new Vector3(2, 0, 0);
+        var moveBullet = new Vector3(2, -1, 0);
         transform.position += moveBullet * bulletSpeed * Time.deltaTime;
 
         //var moveBulletLeft = new Vector3 (-2, 0, 0);
