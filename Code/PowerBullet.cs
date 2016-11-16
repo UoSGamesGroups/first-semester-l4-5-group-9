@@ -14,12 +14,6 @@ public class PowerBullet : MonoBehaviour
         {
         var moveBullet = new Vector3(2, 2, 0);
         transform.position += moveBullet * bulletSpeed * Time.deltaTime;
-
-        //var moveBulletUp = new Vector3(0, 1, 0);
-        //transform.position += moveBullet * bulletSpeed * Time.deltaTime;
-
-        //var moveBulletDown = new Vector3(0, -1, 0);
-        //transform.position += moveBullet * bulletSpeed * Time.deltaTime;
         }
 
 

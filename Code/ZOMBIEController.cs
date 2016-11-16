@@ -57,6 +57,10 @@ public class ZOMBIEController : MonoBehaviour {
 		{
 			ZOMBIEHealth -= 35;
 		}
+        if (coll.gameObject.tag == "BULLETPOWER") 
+        {
+            ZOMBIEHealth -= 105;
+        }
 	}
 
 

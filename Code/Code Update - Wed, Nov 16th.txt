@@ -1,0 +1,18 @@
+Bugs fixed:
+Enemies now take damage from bullets fired with the updated mouse aim/fire code.
+Projectile velocity no longer effects velocity of enemies and interferes with their behaviour.
+'bullet power up' effect altered to enable ability with mouse shooting. enhanced fire mode interaction with enemies also changed.
+
+
+
+Additions:
+Basic fog of war mechanic added whereby area of environment visible to the player is reduced on player taking damage.
+Updated 8 way movement controls using W, A, S and D keys (amended code should better allow for more straightforward implementation of sprite animation code).
+Now able to aim with mouse cursor and shoot projectile towards mouse cursor location on mouse click.
+Player sprite permanently oriented towards mouse cursor.
+
+
+
+
+Issues Im already aware of and aim to fix during next sprint:
+Will need to reconsider player movement speed vs. enemy movement speed vs. bullet movement speed
