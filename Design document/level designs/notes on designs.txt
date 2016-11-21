@@ -1,6 +1,5 @@
 Notes for design 1:
 
-- H = Health Pickup
 - S = Speed Pickup
 - C = Crystal Pickup
 - Pickups will be present from the start of the game, but will be limited in number, to allow some player choice whether they collect them or not
