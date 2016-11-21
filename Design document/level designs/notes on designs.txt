@@ -1,0 +1,21 @@
+Notes for design 1:
+
+- H = Health Pickup
+- S = Speed Pickup
+- C = Crystal Pickup
+- Pickups will be present from the start of the game, but will be limited in number, to allow some player choice whether they collect them or not
+- ES = Enemy Spawner
+- Start level at entry (portal from previous level)
+- Collect all crystals to unlock the door
+- Enemies need to be avoided, obstacles make this harder
+
+
+notes for tutorial design:
+
+- no enemy spawners
+- one crystal, C, that opens the gate
+- portal that takes player to next level
+- no pickups
+- Gate that the player needs to open to move to next level
+- Curiousity should make the player pick up the crystal and move through the portal
+- PS = Player Start
