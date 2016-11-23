@@ -21,7 +21,12 @@ public class Health : MonoBehaviour {
             {
             sr = GetComponent<SpriteRenderer>();
             sr.sprite = BatteryOvercharge;
-            }
+            Destroy(gameObjectWithTag("Borders"));
+            //Destroy(other.gameObject);
+            //GameObject[] Borders = GameObject.FindGameObjectsWithTag("Borders");
+            //foreach (GameObject Borders in Borders)
+            //GameObject.Destroy(Borders);
+        }
 
         if (Number == 3) 
             { 
