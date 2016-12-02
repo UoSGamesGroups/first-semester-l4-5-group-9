@@ -14,7 +14,7 @@ public class Teleporter : MonoBehaviour {
         if (!CanTeleport) {
             CanTeleport = true;
             other.gameObject.transform.position = TeleportTarget.position;
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(0.01f);
             CanTeleport = true;
 
         }
@@ -26,7 +26,7 @@ public class Teleporter : MonoBehaviour {
         if (CanTeleport) {
 
             CanTeleport = true;
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(0.01f);
             CanTeleport = false;
         }
 
