@@ -1,0 +1,16 @@
+Bugs fixed:
+Teleporter 'sensitivity' increased, now more compatible with our reaction mechanics.
+walls now interact with game object as though 'solid'
+
+
+Additions:
+2 New enemy type added (to be altered as discussed).
+New pickups added and relevant code to achieve desired effect of 'Crystal' game object (including point scoring, kill enemies, destroy border).
+Game object obstacles which can be interacted with to creatively complete player goals.
+Specific doors and keys (and script) created to give greater control over level design.
+Trigger spawners added in addition to timed spawners - will allow greater configuration over game diffuculty.
+
+
+
+Issues Im already aware of and aim to fix during next sprint:
+Issue regarding player health:overcharge state.
