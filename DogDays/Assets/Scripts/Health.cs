@@ -19,25 +19,6 @@ public class Health : MonoBehaviour {
         if (Number == 4) {
             sr = GetComponent<SpriteRenderer>();
             sr.sprite = BatteryOvercharge;
-
-            //GameObject[] enemies = GameObject.FindGameObjectsWithTag("ENEMY");
-            //foreach (GameObject ENEMY in enemies)
-            //GameObject.Destroy(ENEMY);
-            
-            // Destroy all game objects with 'BlockT' tag//
-            //Destroy(GameObject.FindWithTag("BlockT"));
-            //Destroy all game objects with 'ENEMY' tag
-            
-            //GameObject[] blocker = GameObject.FindGameObjectsWithTag("Blockers");
-            //foreach (GameObject Blockers in blocker)
-            //GameObject.Destroy(Blockers);
-            //Destroy(GameObject.FindWithTag("Borders"));
-            //Destroy(other.gameObject);
-            //GameObject[] Borders = GameObject.FindGameObjectsWithTag("Borders");
-            //foreach (GameObject Borders in Borders)
-            //GameObject.Destroy(Borders);
-
-            //StartCoroutine("Overcharge");
         }
 
         if (Number == 3) {

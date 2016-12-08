@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ZOMBIESpawner : MonoBehaviour {
 
-    public GameObject ZOMBIEPrefab;
+    public GameObject CatENEMYPrefab;
     public int timer = 0;
     public int spawnRate = 30;
 
@@ -20,7 +20,7 @@ public class ZOMBIESpawner : MonoBehaviour {
         if (timer > spawnRate) {
             spawnRate = Random.Range(150, 180);
 
-            Instantiate(ZOMBIEPrefab, new Vector3(transform.position.x, transform.position.y, 0), Quaternion.identity);
+            Instantiate(CatENEMYPrefab, new Vector3(transform.position.x, transform.position.y, 0), Quaternion.identity);
             timer = 0;
         }
 
