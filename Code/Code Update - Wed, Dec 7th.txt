@@ -1,0 +1,16 @@
+Bugs fixed:
+Direct interaction between player and enemy types
+Effect on enemies when Player interacts with pick-up items
+Player Health & Player 'health-states' including reverting to normal mode
+
+
+Additions:
+Game Object prefabs which can be added into scenes
+Respawn on death, messages displayed and respawn effects on play input
+Further changes to enemy types.
+Main menu screens navigation functionality.
+
+
+
+Issues Im already aware of and aim to fix during next sprint:
+None this week!  (hopefully)
