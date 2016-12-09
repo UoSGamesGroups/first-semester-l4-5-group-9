@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class Health : MonoBehaviour {
 
-    SpriteRenderer sr;
+    private Image sr;
     public Sprite BatteryOvercharge;
     public Sprite BatteryFull;
     public Sprite Battery2;
@@ -12,35 +13,34 @@ public class Health : MonoBehaviour {
 
 
     // Use this for initialization
-    void Start() { }
+    void Start()
+    {
+        sr = GetComponent<Image>();
+    }
 
     public void updateHealth(int Number) {
 
         if (Number == 4) {
-            sr = GetComponent<SpriteRenderer>();
+            
             sr.sprite = BatteryOvercharge;
         }
 
         if (Number == 3) {
-            sr = GetComponent<SpriteRenderer>();
             sr.sprite = BatteryFull;
         }
 
 
         if (Number == 2) {
-            sr = GetComponent<SpriteRenderer>();
             sr.sprite = Battery2;
         }
 
 
         if (Number == 1) {
-            sr = GetComponent<SpriteRenderer>();
             sr.sprite = Battery1;
         }
 
 
         if (Number == 0) {
-            sr = GetComponent<SpriteRenderer>();
             sr.sprite = BatteryEmpty;
         }
 
