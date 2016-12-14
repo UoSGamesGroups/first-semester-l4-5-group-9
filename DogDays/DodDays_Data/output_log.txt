@@ -1,0 +1,89 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics (ID=0xa06)
+    Vendor:   Intel
+    VRAM:     1136 MB
+    Driver:   20.19.15.4531
+Default GameObject Tag: Player already registered
+ 
+(Filename:  Line: 90)
+
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\New account\Desktop\first-semester-l4-5-group-9\DogDays\DodDays_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\New account\Desktop\first-semester-l4-5-group-9\DogDays\DodDays_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\New account\Desktop\first-semester-l4-5-group-9\DogDays\DodDays_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\New account\Desktop\first-semester-l4-5-group-9\DogDays\DodDays_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\New account\Desktop\first-semester-l4-5-group-9\DogDays\DodDays_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\New account\Desktop\first-semester-l4-5-group-9\DogDays\DodDays_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\New account\Desktop\first-semester-l4-5-group-9\DogDays\DodDays_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\New account\Desktop\first-semester-l4-5-group-9\DogDays\DodDays_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\New account\Desktop\first-semester-l4-5-group-9\DogDays\DodDays_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\New account\Desktop\first-semester-l4-5-group-9\DogDays\DodDays_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.369 seconds
+Platform assembly: C:\Users\New account\Desktop\first-semester-l4-5-group-9\DogDays\DodDays_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\New account\Desktop\first-semester-l4-5-group-9\DogDays\DodDays_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 59Hz; virtual: 3456x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.054355 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at MenuManager.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 14.322085 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 590.
+Total: 0.412962 ms (FindLiveObjects: 0.050714 ms CreateObjectMapping: 0.028979 ms MarkObjects: 0.319985 ms  DeleteObjects: 0.012678 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at TriggerSpawn.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at TriggerSpawn.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at TriggerSpawn.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.870621 ms
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 455.
+Total: 1.081914 ms (FindLiveObjects: 0.123768 ms CreateObjectMapping: 0.047092 ms MarkObjects: 0.741401 ms  DeleteObjects: 0.167237 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.475557 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 436.
+Total: 0.399680 ms (FindLiveObjects: 0.039847 ms CreateObjectMapping: 0.028376 ms MarkObjects: 0.317570 ms  DeleteObjects: 0.013282 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.180325 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 436.
+Total: 0.603746 ms (FindLiveObjects: 0.067619 ms CreateObjectMapping: 0.032602 ms MarkObjects: 0.492053 ms  DeleteObjects: 0.010263 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.046507 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 436.
+Total: 0.999201 ms (FindLiveObjects: 0.103844 ms CreateObjectMapping: 0.044677 ms MarkObjects: 0.826529 ms  DeleteObjects: 0.021131 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.608576 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 601.
+Total: 0.487223 ms (FindLiveObjects: 0.055544 ms CreateObjectMapping: 0.027168 ms MarkObjects: 0.384586 ms  DeleteObjects: 0.019319 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 324c -> priority: 1 
